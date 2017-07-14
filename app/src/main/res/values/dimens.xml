@@ -1,3 +1,10 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
+    <dimen name="card_elevation">6sp</dimen>
+    <dimen name="card_margin">8sp</dimen>
+    <dimen name="normal_padding">10sp</dimen>
+    <dimen name="small_card_width">240sp</dimen>
+    <dimen name="textview_size_normal">14sp</dimen>
+    <dimen name="grid_item_size">160sp</dimen>
+    <dimen name="grid_item_spacing">2sp</dimen>
 </resources>

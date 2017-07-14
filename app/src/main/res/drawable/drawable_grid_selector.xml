@@ -1,0 +1,16 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true">
+        <!-- This applies when the item is checked. -->
+        <shape android:shape="rectangle">
+            <corners android:radius="4sp" />
+            <solid android:color="@color/colorAccent" />
+        </shape>
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="4sp" />
+            <solid android:color="@color/colorPrimaryDark" />
+        </shape>
+    </item>
+</selector>

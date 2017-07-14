@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item
+                android:drawable="@color/colorPrimaryDark"
+                android:state_checked="true" />
+            <item android:drawable="@color/colorPrimary" />
+        </selector>
+    </item>
+    <item>
+        <ripple android:color="@color/colorAccent">
+            <item android:id="@android:id/mask">
+                <color android:color="@color/colorPrimary" />
+            </item>
+        </ripple>
+    </item>
+</layer-list>

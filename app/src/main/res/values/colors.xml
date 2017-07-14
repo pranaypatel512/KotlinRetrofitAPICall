@@ -3,4 +3,7 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="color_date_time">#FF645C5C</color>
+    <color name="color_transparent">#33000000</color>
 </resources>

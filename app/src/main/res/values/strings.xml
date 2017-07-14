@@ -2,4 +2,7 @@
     <string name="app_name">KotlinRetrofitAPICall</string>
     <string name="action_settings">Settings</string>
     <string name="new_api_key">3c08e0a94cfe43e69f0386f05eb3177f</string>
+
+    <string name="news_image">New Image</string>
+    <string name="str_test_date">APR 28, 2017</string>
 </resources>
