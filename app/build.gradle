@@ -35,6 +35,7 @@ dependencies {
     implementation commonDependencies.designSupport
     implementation commonDependencies.constraintlayout
     implementation commonDependencies.glide
+    implementation commonDependencies.cardView
     implementation commonDependencies.butterKnife
     annotationProcessor commonDependencies.butterKnifeCompiler
 

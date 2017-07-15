@@ -18,10 +18,58 @@
         android:layout_height="wrap_content"
         android:background="@drawable/drawable_list_item">
 
+        <TextView
+            android:id="@+id/tvListItemTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeItemImage"
+            android:maxLines="2"
+            android:textStyle="bold"
+            android:padding="@dimen/normal_padding"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"
+            tools:text="@string/app_name" />
+
+        <TextView
+            android:id="@+id/tvListItemDateTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvListItemTitle"
+            android:layout_marginBottom="@dimen/normal_padding"
+            android:layout_marginLeft="@dimen/normal_padding"
+            android:layout_marginStart="@dimen/normal_padding"
+            android:maxLines="2"
+            android:textAllCaps="true"
+            android:textColor="@color/color_date_time"
+            android:textSize="14sp"
+            tools:text="@string/str_test_date" />
+
+        <TextView
+            android:id="@+id/tvListItemAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvListItemTitle"
+            android:layout_marginBottom="@dimen/normal_padding"
+            android:layout_marginEnd="@dimen/normal_padding"
+            android:layout_marginLeft="@dimen/normal_padding"
+            android:layout_marginRight="@dimen/normal_padding"
+            android:layout_marginStart="@dimen/normal_padding"
+            android:layout_toEndOf="@+id/tvListItemDateTime"
+            android:layout_toRightOf="@+id/tvListItemDateTime"
+            android:maxLines="1"
+            android:textAllCaps="true"
+
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            tools:text="@string/str_test_date" />
+
         <RelativeLayout
             android:id="@+id/relativeItemImage"
             android:layout_width="match_parent"
-            android:layout_height="180sp">
+            android:layout_height="180sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
 
             <ImageView
                 android:id="@+id/ivListItem"
@@ -43,49 +91,6 @@
                 android:textColor="@color/colorAccent"
                 tools:text="@string/app_name" />
         </RelativeLayout>
-
-        <TextView
-            android:id="@+id/tvListItemTitle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/relativeItemImage"
-            android:maxLines="2"
-            android:padding="@dimen/normal_padding"
-            android:textColor="@android:color/black"
-            android:textSize="14sp"
-            tools:text="@string/app_name" />
-
-        <TextView
-            android:id="@+id/tvListItemDateTime"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/tvListItemTitle"
-            android:layout_marginBottom="@dimen/normal_padding"
-            android:layout_marginLeft="@dimen/normal_padding"
-            android:layout_marginStart="@dimen/normal_padding"
-            android:maxLines="2"
-            android:textAllCaps="true"
-            android:textColor="@color/color_date_time"
-            android:textSize="12sp"
-            tools:text="@string/str_test_date" />
-
-        <TextView
-            android:id="@+id/tvListItemAuthor"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/tvListItemTitle"
-            android:layout_marginBottom="@dimen/normal_padding"
-            android:layout_marginEnd="@dimen/normal_padding"
-            android:layout_marginLeft="@dimen/normal_padding"
-            android:layout_marginRight="@dimen/normal_padding"
-            android:layout_marginStart="@dimen/normal_padding"
-            android:layout_toEndOf="@+id/tvListItemDateTime"
-            android:layout_toRightOf="@+id/tvListItemDateTime"
-            android:maxLines="1"
-            android:textAllCaps="true"
-            android:textColor="@android:color/black"
-            android:textSize="12sp"
-            tools:text="@string/str_test_date" />
 
     </RelativeLayout>
 </android.support.v7.widget.CardView>
