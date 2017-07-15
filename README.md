@@ -3,7 +3,7 @@
 #### In this example
 * Demonstrate Retrofit rest API call using RxJava in kotlin
 
-<img src="https://github.com/pranaypatel512/KotlinRetrofitAPICall/blob/master/app/images/kotlin_retrofit_rxjava_api_call.gif" width="300" >
+<img src="https://github.com/pranaypatel512/KotlinRetrofitAPICall/blob/master/images/kotlin_retrofit_rxjava_api_call.gif" width="300" >
 
 
 #### Built With
